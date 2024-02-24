@@ -6,6 +6,7 @@ import { clear } from "./utils.ts";
 
 <template>
     <div class="box">
+        <p><a href="https://github.com/Bluemangoo">Bluemangoo</a> / <a href="https://github.com/Bluemangoo/shubiao">shubiao</a>: 数表</p>
         <div class="menu flex">
             <button @click="needDisable=!needDisable">{{ needDisable ? "关闭锁定" : "打开锁定" }}</button>
             <button @click="clear()">清空</button>
